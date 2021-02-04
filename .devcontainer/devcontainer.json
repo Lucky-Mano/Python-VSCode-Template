@@ -26,16 +26,14 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pydocstyleEnabled": true,
-    "python.testing.nosetestsEnabled": true,
     "python.linting.pycodestyleEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.lintOnSave": true,
     "python.formatting.provider": "black",
     "python.sortImports.args": [
-      "-rc",
-      "-w 100",
-      "-m 3"
+      "--tc",
+      "-w 100"
     ],
   },
   "shutdownAction": "stopCompose"
